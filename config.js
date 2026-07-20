@@ -20,7 +20,7 @@ window.SRN_CONFIG = {
 
   operations: {
     level: "normal",
-    label: "NORMAL OPERATIONS",
+    label: "MAXIMUM WEATHER ALERT",
     detail: "Routine nationwide monitoring, preparedness, training, and network development.",
     updated: "July 19, 2026 • 10:45 PM CDT",
     currentThreat: "No active SRN deployment",
