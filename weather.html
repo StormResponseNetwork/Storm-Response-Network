@@ -1,1 +1,47 @@
-<!doctype html><html><head><title>Weather | SRN</title><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="styles.css"></head><body><div class="top"><div class="container"><a data-phone-link><span data-phone></span></a><a data-email-link><span data-email></span></a><a data-discord target="_blank">Discord</a></div></div><header class="site-header"><div class="container nav"><a class="brand" href="index.html"><img src="srn-logo.jpg"><span><strong>STORM RESPONSE NETWORK</strong><small>CHASE • REPORT • PROTECT</small></span></a><button class="menu-button"><span></span><span></span><span></span></button><nav class="site-nav"><a href="index.html">Home</a><a href="about.html">About</a><a href="operations.html">Operations</a><a href="weather.html">Weather</a><a href="reports.html">Reports</a><a href="training.html">Training</a><a href="relief.html">Relief</a><a href="volunteer.html">Volunteer</a><a href="news.html">Briefings</a><a href="contact.html">Contact</a></nav></div></header><main><section class="page-hero"><div class="container"><p class="eyebrow">Live Weather Center</p><h1>Official forecasts, warnings, radar, and outlooks.</h1></div></section><section class="section"><div class="container resources"><a href="https://www.weather.gov/" target="_blank"><h3>National Weather Service</h3><p>Forecasts and warnings.</p></a><a href="https://radar.weather.gov/" target="_blank"><h3>NWS Radar</h3><p>Official radar viewer.</p></a><a href="https://www.spc.noaa.gov/" target="_blank"><h3>Storm Prediction Center</h3><p>Outlooks and storm reports.</p></a><a href="https://www.wpc.ncep.noaa.gov/" target="_blank"><h3>Weather Prediction Center</h3><p>Rainfall and national guidance.</p></a><a href="https://www.nhc.noaa.gov/" target="_blank"><h3>National Hurricane Center</h3><p>Tropical forecasts.</p></a><a href="https://www.weather.gov/safety/" target="_blank"><h3>Weather Safety</h3><p>Official safety guidance.</p></a></div></section></main><footer class="footer"><div class="container footer-grid"><div><img src="srn-logo.jpg"><strong>Storm Response Network</strong><p>Monitor • Report • Respond</p></div><div><p>Storm Response Network is an independent community organization. It is not NOAA, the National Weather Service, FEMA, law enforcement, fire, EMS, or an emergency-management agency, and no affiliation is implied.</p><p>© <span data-year></span> Storm Response Network.</p></div></div></footer><script src="config.js"></script><script src="script.js"></script></body></html>
+<!doctype html><html lang="en"><head><title>National Weather Center | Storm Response Network</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#020711">
+<meta name="description" content="Storm Response Network nationwide weather awareness, preparedness, communications, storm reporting, and disaster support.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+</head><body>
+<div class="topbar"><div class="container">
+<a data-phone-link href="#"><span data-phone></span></a>
+<a data-email-link href="#"><span data-email></span></a>
+<a data-discord-link href="#" target="_blank">Discord</a>
+</div></div>
+<header class="site-header"><div class="container nav-wrap">
+<a class="brand" href="index.html"><img src="srn-logo.jpg" alt="SRN logo"><span><strong>STORM RESPONSE NETWORK</strong><small>MOBILE EMERGENCY OPERATIONS CENTER</small></span></a>
+<button class="menu-button" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+<nav class="main-nav">
+<a href="index.html">Home</a><a href="eoc.html">EOC</a><a href="weather.html">Weather</a><a href="incidents.html">Incidents</a><a href="reports.html">Reports</a><a href="communications.html">Comms</a><a href="training.html">Academy</a><a href="relief.html">Relief</a><a href="leadership.html">Leadership</a><a href="volunteer.html">Volunteer</a><a href="resources.html">Resources</a><a href="contact.html">Contact</a>
+</nav></div></header>
+<div class="status-strip"><div class="container"><span class="status-dot"></span><strong data-status-label></strong><span data-status-detail></span></div></div>
+<main>
+<section class="page-hero"><div class="container"><p class="eyebrow">National Weather Center</p><h1>Forecasts, radar, outlooks, and hazards.</h1><p>Search an official National Weather Service forecast and access trusted national weather resources.</p></div></section>
+<section class="section"><div class="container split"><div class="panel"><p class="eyebrow">Local Forecast Search</p><h3>Enter a U.S. city and state</h3><div class="weather-search"><input id="weather-location" placeholder="Stanton, TX"><button id="weather-search-btn" class="btn primary">Get Forecast</button></div><div id="forecast-output" class="forecast-output"></div></div><div class="notice"><h3>Official information first</h3><p>Forecast search uses official NWS forecast data. During hazardous weather, rely on warnings, emergency alerts, and local public-safety instructions.</p></div></div></section>
+<section class="section alt"><div class="container"><div class="resource-grid">
+<a href="https://www.weather.gov/" target="_blank"><h3>National Weather Service</h3><p>Local forecasts, warnings, and offices.</p></a>
+<a href="https://radar.weather.gov/" target="_blank"><h3>NWS Radar</h3><p>National and local radar.</p></a>
+<a href="https://www.spc.noaa.gov/" target="_blank"><h3>Storm Prediction Center</h3><p>Outlooks, watches, discussions, and storm reports.</p></a>
+<a href="https://www.wpc.ncep.noaa.gov/" target="_blank"><h3>Weather Prediction Center</h3><p>Rainfall, winter weather, and national guidance.</p></a>
+<a href="https://www.nhc.noaa.gov/" target="_blank"><h3>National Hurricane Center</h3><p>Tropical advisories and forecasts.</p></a>
+<a href="https://www.weather.gov/safety/" target="_blank"><h3>Weather Safety</h3><p>Official hazard safety guidance.</p></a>
+<a href="https://www.star.nesdis.noaa.gov/GOES/" target="_blank"><h3>GOES Satellite</h3><p>Official satellite imagery.</p></a>
+<a href="https://water.noaa.gov/" target="_blank"><h3>National Water Prediction</h3><p>River, flood, and water information.</p></a>
+<a href="https://www.weather.gov/nwr/" target="_blank"><h3>NOAA Weather Radio</h3><p>Warning radio information and coverage.</p></a>
+</div></div></section>
+</main>
+<footer class="footer"><div class="container footer-grid">
+<div><img class="footer-logo" src="srn-logo.jpg" alt="SRN logo"><h3>Storm Response Network</h3><p>Monitor • Report • Respond</p></div>
+<div><h4>Independent Organization Notice</h4><p>SRN is an independent community organization. It is not NOAA, the National Weather Service, FEMA, law enforcement, fire, EMS, or an emergency-management agency, and no affiliation or governmental authority is implied.</p></div>
+<div><h4>Contact</h4><a data-phone-link href="#"><span data-phone></span></a><a data-email-link href="#"><span data-email></span></a><a data-discord-link href="#" target="_blank">Discord</a><a data-facebook-link href="#" target="_blank">Facebook</a></div>
+</div><div class="container copyright">© <span data-year></span> Storm Response Network. All rights reserved.</div></footer>
+<div class="scanlines"></div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="config.js"></script><script src="script.js"></script>
+</body></html>
