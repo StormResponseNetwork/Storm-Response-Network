@@ -1,365 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <title>Home | Storm Response Network</title>
+  <meta name="description" content="Storm Response Network nationwide weather awareness, storm spotting, communications, preparedness, and disaster support." />
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Storm Response Network is an independent community weather, emergency communications, preparedness, and disaster-support network serving the Permian Basin and beyond." />
-  <meta name="theme-color" content="#07101b" />
-  <meta property="og:title" content="Storm Response Network" />
-  <meta property="og:description" content="Chase • Report • Protect" />
-  <title>Storm Response Network | Chase • Report • Protect</title>
+  <meta name="theme-color" content="#06101b" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
+
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="site-header" id="top">
-    <div class="container nav-wrap">
-      <a class="brand" href="#top" aria-label="Storm Response Network home">
-        <span class="brand-badge" aria-hidden="true">
-          <svg viewBox="0 0 72 72">
-            <path class="ring" d="M36 4a32 32 0 1 0 0 64 32 32 0 0 0 0-64Z"/>
-            <path class="bolt" d="M41 11 20 41h15l-3 20 21-31H39l2-19Z"/>
-          </svg>
-        </span>
-        <span class="brand-copy">
-          <strong>STORM RESPONSE</strong>
-          <small>NETWORK</small>
-        </span>
-      </a>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html">
+      <img src="assets/srn-logo.jpg" alt="Storm Response Network logo">
+      <span><strong>STORM RESPONSE NETWORK</strong><small>CHASE • REPORT • PROTECT</small></span>
+    </a>
+    <button class="menu-button" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span></button>
+    <nav id="main-nav" class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="operations.html">Operations</a>
+      <a href="weather.html">Live Weather</a>
+      <a href="reports.html">Storm Reports</a>
+      <a href="training.html">Training</a>
+      <a href="relief.html">Relief</a>
+      <a href="volunteer.html">Volunteer</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
 
-      <button class="menu-button" aria-expanded="false" aria-controls="main-nav">
-        <span></span><span></span><span></span>
-        <span class="sr-only">Open navigation</span>
-      </button>
+<main>
 
-      <nav id="main-nav" class="site-nav" aria-label="Main navigation">
-        <a href="#mission">Mission</a>
-        <a href="#operations">Operations</a>
-        <a href="#standards">Standards</a>
-        <a href="#relief">Relief</a>
-        <a href="#connect">Connect</a>
-        <a class="nav-cta" href="https://discord.gg/VcFufHRCkz" target="_blank" rel="noopener noreferrer">Join SRN</a>
-      </nav>
-    </div>
-  </header>
-
-  <main id="main">
-    <section class="hero">
-      <div class="radar-rings" aria-hidden="true"></div>
-      <div class="hero-grid" aria-hidden="true"></div>
-      <div class="container hero-layout">
-        <div class="hero-copy">
-          <p class="eyebrow"><span></span> Independent Community Weather & Response Network</p>
-          <h1>CHASE.<br><em>REPORT.</em><br>PROTECT.</h1>
-          <p class="hero-lead">
-            Storm Response Network brings together weather spotters, amateur-radio operators,
-            storm enthusiasts, and community volunteers to improve awareness, communication,
-            preparedness, and support before, during, and after severe weather.
-          </p>
-          <div class="hero-actions">
-            <a class="button primary" href="https://discord.gg/VcFufHRCkz" target="_blank" rel="noopener noreferrer">Join the Discord</a>
-            <a class="button secondary" href="#mission">View Our Mission</a>
-          </div>
-        </div>
-
-        <aside class="status-panel" aria-label="SRN operating focus">
-          <div class="status-top">
-            <span class="live-dot"></span>
-            <span>SRN Operational Focus</span>
-          </div>
-          <div class="status-row"><span>01</span><strong>Weather Awareness</strong></div>
-          <div class="status-row"><span>02</span><strong>Ground-Truth Reporting</strong></div>
-          <div class="status-row"><span>03</span><strong>Emergency Communications</strong></div>
-          <div class="status-row"><span>04</span><strong>Community Preparedness</strong></div>
-          <div class="status-row"><span>05</span><strong>Disaster Support</strong></div>
-        </aside>
-      </div>
-    </section>
-
-    <section class="official-notice" aria-label="Safety notice">
-      <div class="container">
-        <strong>PUBLIC-SAFETY NOTICE</strong>
-        <span>
-          SRN is not a government agency and does not replace official warnings. Always follow the
-          National Weather Service, local emergency management, and public-safety instructions.
-        </span>
-      </div>
-    </section>
-
-    <section class="section intro-section" id="mission">
-      <div class="container">
-        <div class="section-heading split-heading">
-          <div>
-            <p class="section-label">Mission & Purpose</p>
-            <h2>Information that helps people act.</h2>
-          </div>
-          <div class="section-summary">
-            <p>
-              Our mission is to strengthen community resilience through responsible weather reporting,
-              clear safety communication, emergency preparedness, resilient communications, and
-              organized support for communities affected by severe weather.
-            </p>
-          </div>
-        </div>
-
-        <div class="mission-grid">
-          <article>
-            <span>01</span>
-            <h3>Observe</h3>
-            <p>Encourage trained, location-specific observations of hail, wind, flooding, damage, and dangerous storm structure.</p>
-          </article>
-          <article>
-            <span>02</span>
-            <h3>Communicate</h3>
-            <p>Share clear information and direct the public toward official watches, warnings, and instructions.</p>
-          </article>
-          <article>
-            <span>03</span>
-            <h3>Prepare</h3>
-            <p>Promote emergency planning, weather-radio use, go-kits, first-aid readiness, and practical severe-weather safety.</p>
-          </article>
-          <article>
-            <span>04</span>
-            <h3>Support</h3>
-            <p>Connect members and donors with organized community assistance and reputable disaster-relief efforts.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section dark-section" id="operations">
-      <div class="container">
-        <div class="section-heading">
-          <p class="section-label">Core Operations</p>
-          <h2>A network built for awareness, communications, and service.</h2>
-        </div>
-
-        <div class="operations-grid">
-          <article class="operation-card featured">
-            <div class="operation-icon">WX</div>
-            <div>
-              <p class="kicker">Weather Operations</p>
-              <h3>Severe-weather awareness and field reporting</h3>
-              <p>
-                SRN supports responsible observation and communication of severe-weather hazards,
-                including hail, damaging wind, flash flooding, dangerous road conditions, and
-                significant storm structure.
-              </p>
-            </div>
-          </article>
-
-          <article class="operation-card">
-            <div class="operation-icon">RF</div>
-            <div>
-              <p class="kicker">Communications</p>
-              <h3>Amateur radio and resilient information flow</h3>
-              <p>
-                We promote lawful, disciplined radio practices, net participation, and backup
-                communications that can support community awareness during exercises and emergencies.
-              </p>
-            </div>
-          </article>
-
-          <article class="operation-card">
-            <div class="operation-icon">PR</div>
-            <div>
-              <p class="kicker">Preparedness</p>
-              <h3>Training, readiness, and public education</h3>
-              <p>
-                SRN encourages SKYWARN training, first aid, CPR/AED, Stop the Bleed, FEMA independent-study
-                courses, emergency-kit planning, and ongoing weather education.
-              </p>
-            </div>
-          </article>
-
-          <article class="operation-card">
-            <div class="operation-icon">DR</div>
-            <div>
-              <p class="kicker">Disaster Support</p>
-              <h3>Recovery assistance and community service</h3>
-              <p>
-                Our long-term goal is to help organize volunteers, supplies, verified needs, and
-                community support after severe-weather events while coordinating through appropriate local channels.
-              </p>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section goals-section">
-      <div class="container goals-layout">
-        <div>
-          <p class="section-label">Long-Term Vision</p>
-          <h2>Building a trusted regional response community.</h2>
-        </div>
-        <div class="goal-list">
-          <div>
-            <span>01</span>
-            <p>Expand a trained volunteer network across the Permian Basin and surrounding areas.</p>
-          </div>
-          <div>
-            <span>02</span>
-            <p>Develop clear activation, reporting, communications, and after-action procedures.</p>
-          </div>
-          <div>
-            <span>03</span>
-            <p>Provide a reliable online hub for weather discussion, training, operations, and community updates.</p>
-          </div>
-          <div>
-            <span>04</span>
-            <p>Support collaboration with recognized emergency-management, public-safety, amateur-radio, and relief organizations when formally invited or authorized.</p>
-          </div>
-          <div>
-            <span>05</span>
-            <p>Strengthen public confidence through transparency, professionalism, verification, and consistent safety standards.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section standards-section" id="standards">
-      <div class="container">
-        <div class="section-heading split-heading">
-          <div>
-            <p class="section-label">Operating Standards</p>
-            <h2>Safety. Accuracy. Integrity.</h2>
-          </div>
-          <div class="section-summary">
-            <p>
-              SRN members are expected to communicate responsibly, avoid exaggeration, respect incident command,
-              and never represent themselves as government personnel or public-safety officers without authorization.
-            </p>
-          </div>
-        </div>
-
-        <div class="standards-grid">
-          <article><strong>Safety First</strong><p>No report, photo, video, or chase is worth placing the public or a member in danger.</p></article>
-          <article><strong>Verify Before Posting</strong><p>Separate confirmed observations from interpretation, estimates, and unverified reports.</p></article>
-          <article><strong>Use Official Channels</strong><p>Urgent life-safety information should be reported through appropriate official channels whenever possible.</p></article>
-          <article><strong>Respect Authority</strong><p>Follow road closures, law-enforcement direction, emergency-management instructions, and incident-command structure.</p></article>
-          <article><strong>Protect Privacy</strong><p>Avoid sharing sensitive personal information, victim imagery, or operational details that could cause harm.</p></article>
-          <article><strong>No False Affiliation</strong><p>Never imply SRN is NOAA, NWS, FEMA, law enforcement, fire, EMS, or another government organization.</p></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section relief-section" id="relief">
-      <div class="container relief-layout">
-        <div>
-          <p class="section-label">Support SRN Disaster Efforts</p>
-          <h2>Help fund response supplies and community assistance.</h2>
-          <p class="relief-copy">
-            Contributions may support approved SRN response activity, including fuel, communications,
-            preparedness materials, basic supplies, and assistance for communities affected by severe weather.
-          </p>
-
-          <div class="transparency-box">
-            <strong>TRANSPARENCY NOTICE</strong>
-            <p>
-              Payments are sent directly to <b>$grahambutler07</b>. SRN is an independent community network.
-              Contributions should not be assumed tax-deductible unless qualified nonprofit status is separately confirmed.
-              Keep the payment note as <b>“SRN Disaster Relief.”</b>
-            </p>
-          </div>
-        </div>
-
-        <div class="donation-card">
-          <p class="kicker">Cash App Donation Portal</p>
-          <h3>Support SRN</h3>
-          <p>Cash App securely handles the payment. This website never collects or stores card information.</p>
-
-          <div class="amounts">
-            <a href="https://cash.app/$grahambutler07" target="_blank" rel="noopener noreferrer">$10</a>
-            <a href="https://cash.app/$grahambutler07" target="_blank" rel="noopener noreferrer">$25</a>
-            <a href="https://cash.app/$grahambutler07" target="_blank" rel="noopener noreferrer">$50</a>
-            <a href="https://cash.app/$grahambutler07" target="_blank" rel="noopener noreferrer">$100</a>
-          </div>
-
-          <a class="cashapp-button" href="https://cash.app/$grahambutler07" target="_blank" rel="noopener noreferrer">
-            Donate to $grahambutler07 <span>↗</span>
-          </a>
-
-          <div class="fund-use">
-            <strong>Possible uses of funds</strong>
-            <ul>
-              <li>Disaster-response supplies</li>
-              <li>Fuel and approved operational travel</li>
-              <li>Emergency communications equipment</li>
-              <li>Preparedness and outreach materials</li>
-              <li>Community assistance after severe weather</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section connect-section" id="connect">
-      <div class="container connect-card">
-        <div>
-          <p class="section-label">Connect With SRN</p>
-          <h2>Join the network.</h2>
-          <p>
-            Enter the SRN Discord for weather discussion, training resources, operational updates,
-            community coordination, and severe-weather information.
-          </p>
-        </div>
-
-        <div class="social-list">
-          <a href="https://discord.gg/VcFufHRCkz" target="_blank" rel="noopener noreferrer">
-            <span>Discord</span><strong>Join Storm Response Network ↗</strong>
-          </a>
-          <a href="https://www.facebook.com/share/14iKBEFskTh/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">
-            <span>Facebook</span><strong>Graham Butler ↗</strong>
-          </a>
-          <a href="mailto:grahambutlermeteorology@gmail.com">
-            <span>Email</span><strong>grahambutlermeteorology@gmail.com</strong>
-          </a>
-          <a href="https://cash.app/$grahambutler07" target="_blank" rel="noopener noreferrer">
-            <span>Cash App</span><strong>$grahambutler07 ↗</strong>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <section class="section final-cta">
-      <div class="container">
-        <p class="section-label">Storm Response Network</p>
-        <h2>Prepared communities are stronger communities.</h2>
-        <a class="button primary" href="https://discord.gg/VcFufHRCkz" target="_blank" rel="noopener noreferrer">Become Part of SRN</a>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div class="footer-brand">
-        <a class="brand" href="#top">
-          <span class="brand-badge" aria-hidden="true">
-            <svg viewBox="0 0 72 72">
-              <path class="ring" d="M36 4a32 32 0 1 0 0 64 32 32 0 0 0 0-64Z"/>
-              <path class="bolt" d="M41 11 20 41h15l-3 20 21-31H39l2-19Z"/>
-            </svg>
-          </span>
-          <span class="brand-copy"><strong>STORM RESPONSE</strong><small>NETWORK</small></span>
-        </a>
-        <p>Chase • Report • Protect</p>
-      </div>
-
-      <div class="footer-text">
-        <p>
-          Storm Response Network is an independent community organization. It is not NOAA, the National Weather Service,
-          FEMA, law enforcement, fire, EMS, or an emergency-management agency, and no affiliation is implied.
-        </p>
-        <p>© <span id="year"></span> Storm Response Network. All rights reserved.</p>
+<section class="hero">
+  <div class="overlay"></div>
+  <div class="container hero-grid">
+    <div>
+      <p class="eyebrow">Nationwide Independent Weather & Response Network</p>
+      <h1>STORM RESPONSE<br><span>NETWORK</span></h1>
+      <p class="lead">Protecting communities through severe-weather awareness, responsible storm spotting, emergency communications, preparedness education, and organized disaster-support efforts.</p>
+      <div class="actions">
+        <a class="button primary" href="https://discord.gg/VcFufHRCkz" target="_blank">Join the Discord</a>
+        <a class="button secondary" href="about.html">Our Mission</a>
       </div>
     </div>
-  </footer>
+    <aside class="status-card">
+      <p class="section-label">Operations Status</p>
+      <h3 class="status-normal">NORMAL OPERATIONS</h3>
+      <p>No current SRN activation.</p>
+      <div class="mini-grid">
+        <a href="weather.html">Live Weather</a>
+        <a href="reports.html">Report a Storm</a>
+        <a href="training.html">Training Academy</a>
+        <a href="relief.html">Disaster Relief</a>
+      </div>
+    </aside>
+  </div>
+</section>
 
-  <script src="script.js"></script>
+<section class="alert-bar"><div class="container"><strong>SAFETY NOTICE:</strong> SRN information supplements—not replaces—official warnings and instructions.</div></section>
+
+<section class="section">
+  <div class="container">
+    <p class="section-label">Our Mission</p>
+    <h2>Awareness before impact. Support after the storm.</h2>
+    <div class="card-grid four">
+      <article><h3>Weather Awareness</h3><p>Clear public information based on official forecasts, warnings, radar, and verified observations.</p></article>
+      <article><h3>Storm Spotting</h3><p>Responsible ground-truth reporting of hail, wind, flooding, damage, and dangerous storm conditions.</p></article>
+      <article><h3>Emergency Communications</h3><p>Amateur-radio readiness, disciplined net procedures, and resilient information flow.</p></article>
+      <article><h3>Disaster Support</h3><p>Preparedness, volunteer coordination, relief supplies, and community assistance after severe weather.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section dark">
+  <div class="container split">
+    <div>
+      <p class="section-label">Leadership</p>
+      <h2>Founder-led with nationwide goals.</h2>
+      <p>SRN is currently led by Graham Butler, Founder and Executive Director, with a mission to grow a professional volunteer network that serves communities nationwide.</p>
+      <a class="text-link" href="about.html">Meet the founder →</a>
+    </div>
+    <div class="profile-card">
+      <img src="assets/srn-logo.jpg" alt="SRN emblem">
+      <div>
+        <h3>Graham Butler</h3>
+        <p>Founder & Executive Director</p>
+        <p>KJ5PGB • SKYWARN • ARES • FEMA Independent Study • CPR/AED • Stop the Bleed</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <img class="footer-logo" src="assets/srn-logo.jpg" alt="SRN logo">
+      <p><strong>Storm Response Network</strong><br>Monitor • Report • Respond</p>
+    </div>
+    <div>
+      <p>Storm Response Network is an independent community organization. It is not NOAA, the National Weather Service, FEMA, law enforcement, fire, EMS, or an emergency-management agency, and no affiliation is implied.</p>
+      <p>© <span id="year"></span> Storm Response Network. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+<script src="script.js"></script>
+
 </body>
 </html>
